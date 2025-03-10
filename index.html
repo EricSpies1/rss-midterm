@@ -12,74 +12,46 @@
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">2025 Midterm</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              <a class="nav-link" href="rss-feed-1.html">Robotics</a>
+            <a class="navbar-brand" href="index.html">MIT RSS Feeds</a>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="rss-feed-1.html">Robotics</a>
+                    <a class="nav-link" href="rss-feed-2.html">AI</a>
+                    <a class="nav-link" href="rss-feed-3.html">Space</a>
+                    <a class="nav-link" href="rss-feed-4.html">Innovation</a>
+                </div>
             </div>
-            <div class="ms-auto bg-dark" id="dark-mode">
-              <div class="form-check form-switch">
-                <input class="form-check-input" type="checkbox" id="darkModeToggle" />
-                <label class="form-check-label" for="darkModeToggle">Dark Mode</label>
-              </div>
-            </div>
-          </div>
         </div>
-      </nav>
+    </nav>
     </header>
     <main>
       <div class="container mt-5">
         <div class="row">
           <div class="col-md-8 offset-md-2">
-            <div class="jumbotron text-center">
-              <h1 class="display-4">Welcome to MIT RSS Feeds</h1>
-              <p class="lead">A collection of MIT RSS feeds that I find interesting.</p>
+            <div class="jumbotron text-center text-white p-5" style="background: url('midtermback.jpg') center/cover;">
+              <h1 class="display-4">MIT News RSS Feed</h1>
+              <p class="lead">Explore the latest news from MIT in robotics, AI, space, and innovation.</p>
+          </div>
+          <div class="card mt-4">
+            <div class="card-body">
+                <h5 class="card-title">Selected RSS Feeds</h5>
+                <ul>
+                    <li><strong>Robotics:</strong> Covers advancements in automation, AI-driven machines, and future technologies.</li>
+                    <li><strong>Artificial Intelligence:</strong> Focuses on AI research, ethics, and machine learning developments.</li>
+                    <li><strong>Space:</strong> Updates on MIT's space exploration projects, NASA collaborations, and astrophysics.</li>
+                    <li><strong>Innovation:</strong> News on cutting-edge MIT research, entrepreneurship, and new discoveries.</li>
+                </ul>
             </div>
-            <div class="card mt-4">
-              <div class="card-body">
-                <h5 class="card-title">About This Site</h5>
-                <p class="card-text">
-                  This website is a personal selection of RSS feeds from MIT that I find interesting. It provides access
-                  to various news, research, and events from the Massachusetts Institute of Technology.
-                </p>
-                <p class="card-text">
-                  The aim is to share these feeds in a user-friendly format, allowing you to quickly browse and find the
-                  information that I found compelling.
-                </p>
-                <p class="card-text">
-                  Explore the feeds using the navigation bar above. More feeds may be added over time.
-                </p>
-              </div>
-            </div>
+        </div>
 
-            <div class="card mt-4">
-              <div class="card-body">
-                <h5 class="card-title">Student Profile</h5>
-                <div class="text-center">
-                  <img
-                    src="placeholder-student.png"
-                    alt="Student Profile"
-                    class="img-fluid rounded-circle"
-                    style="max-width: 150px"
-                  />
-                </div>
-                <p class="card-text mt-3">
-                  A student taking Web Technologies in Spring 2025. I have a keen interest in technology, research, and
-                  staying updated with the latest happenings at MIT.
-                </p>
-              </div>
-            </div>
+        <div class="card mt-4">
+          <div class="card-body text-center">
+              <h5 class="card-title">Student Profile</h5>
+              <img src="brandon.jpg" alt="Student Profile" class="img-fluid rounded-circle" style="max-width: 150px" />
+              <p class="card-text mt-3">My name is Eric Spies. I’m a Web Development student working on an RSS project to showcase MIT news in an engaging way.</p>
+          </div>
+      </div>
             <div class="mt-4 text-center">
               <p>Powered by Bootstrap 5.3.3</p>
               <p>This is a Spring 2025 Web Technologies Midterm assignment.</p>
@@ -92,15 +64,10 @@
         </div>
       </div>
     </main>
-    <footer class="bg-dark text-light py-3">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 text-center text-md-start">&copy; 2025 Copyright</div>
-          <div class="col-md-4 text-center">Student Name</div>
-          <div class="col-md-4 text-center text-md-end">Spring 2025 Web Technologies Midterm</div>
-        </div>
-      </div>
-    </footer>
+    <footer class="bg-dark text-light py-3 text-center">
+      <p>&copy; 2025 Eric Spies<a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://twitter.com/ericspies" target="_blank"><i class="fab fa-twitter"></i></a></p>
+  </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
